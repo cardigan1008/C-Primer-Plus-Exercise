@@ -6,7 +6,7 @@ int main(void)
 	printf("Enter 2 numbers\n");
 	status =scanf("%d %d",&num1,&num2);
 	
-	while((num1 < num2)&& (status == 2))
+	while(num1 < num2 && status == 2)
 	{
 		sum = 0;
 		for(num = num1;num <= num2;num ++)
