@@ -6,8 +6,7 @@ int main(void)
 	char ch[len];
 	
 	printf("Enter sth.\n");
-	for(n = 0;n < len;n ++)
-		scanf("%c",&ch[n]);
+	scanf("%s",ch);
 		//为什么一定要去除换行符？ 
 	
 	len = strlen(ch);
